@@ -1,35 +1,79 @@
+.siteheader{
+  background-color: white;
+  height: 60px;
+  margin-top: 20px;
+max-width: 1400px;
+position: fixed;
+
+}
 .vet{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 107px;
+  color: black;
 }
 .fish{
   width: 20.75px;
-height: 20.75px;
+  height: 20.75px;
 }
 .siteheader__logo{
   margin-left: 65px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+  flex-shrink: 0;
+}
+.logo__img{
+width:190.55px;
+  height: 86.23px;
+  flex-shrink: 0;
 }
 .siteheader__list{
-  width: 692px;
+ max-width: 780px;
   height: 21.5px;
+  flex-shrink: 0;
   display: flex;
   justify-content: space-between;
+  margin-right: 80px;
+  margin-bottom: 40px;
 }
 .siteheader__link{
   color: rgb(51, 51, 51);
+  font-family: Arimo;
 font-size: 16px;
 font-weight: 500;
 line-height: 21px;
 text-align: left;
 }
-.siteheader__bttn{
+.siteheader__link:hover,.siteheader__zapros:hover{
+ text-decoration: underline rgb(224, 184, 81) 2px;
+}
+.siteheader__link:active,.siteheader__zapros:active{
+  text-decoration: underline rgb(231, 197, 112) 2px;
+  color: grey;
+ }
+.hamburger{
+width: 30px;
+height: 30px;
+display: none;
+}
+.siteheader__zapros{
 border: none;
-background-color: white;
+font-family: Arimo;
 color: rgb(51, 51, 51);
 font-size: 16px;
 line-height: 21px;
 width: 129.32px;
 height: 26.19px;
 margin-right: 64px;
+padding-bottom: 30px;
+text-align: end;
+margin-bottom: 40px;
+}
+.zapros__box{
+  background-image: url(../../img/panja.png);
+  background-repeat: no-repeat;
+}
+@media only screen and  {
+  
 }
