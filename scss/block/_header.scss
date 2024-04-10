@@ -2,8 +2,6 @@
   background-color: white;
   height: 60px;
   margin-top: 20px;
-max-width: 1400px;
-position: fixed;
 
 }
 .vet{
@@ -24,18 +22,22 @@ position: fixed;
   flex-shrink: 0;
 }
 .logo__img{
-width:190.55px;
+max-width:190.55px;
   height: 86.23px;
   flex-shrink: 0;
 }
 .siteheader__list{
- max-width: 780px;
-  height: 21.5px;
-  flex-shrink: 0;
+  width: 645px;
   display: flex;
   justify-content: space-between;
   margin-right: 80px;
   margin-bottom: 40px;
+}
+.siteheader__item{
+  color: rgb(51, 51, 51);
+font-family: Futura PT;
+font-size: 16px;
+font-weight: 500;
 }
 .siteheader__link{
   color: rgb(51, 51, 51);
@@ -55,6 +57,7 @@ text-align: left;
 .hamburger{
 width: 30px;
 height: 30px;
+margin-bottom: 40px;
 display: none;
 }
 .siteheader__zapros{
@@ -63,17 +66,18 @@ font-family: Arimo;
 color: rgb(51, 51, 51);
 font-size: 16px;
 line-height: 21px;
-width: 129.32px;
+max-width: 115.32px;
 height: 26.19px;
 margin-right: 64px;
 padding-bottom: 30px;
 text-align: end;
-margin-bottom: 40px;
+margin-bottom: 10px;
 }
 .zapros__box{
   background-image: url(../../img/panja.png);
   background-repeat: no-repeat;
 }
-@media only screen and  {
-  
-}
+
+// @media screen and (max-width:1150px) {
+// .
+// }
