@@ -1,24 +1,23 @@
 .zabotimsya{
-background-image: url(../../img/Screenshot_2.png);
-flex-shrink: 0;
-background-size: 1440px;
-background-repeat: no-repeat;
-height: 720px;
-width: 1220px;
+background-color:#F9F9F9;
+display:flex;
+align-items: center;
+justify-content: space-between;
 }
 .zabotimsya__title{
   font-family: Arimo;
 font-size: 70px;
 font-weight: 500;
-line-height: 64px;
-letter-spacing: 0%;
+}
+.zabotimsya__img{
+  max-width: 600px;
+  flex-shrink: 0;
 }
 .zabotimsya__title2{
   color:rgb(120, 192, 222);
   font-family: Arimo;
 font-size: 60px;
 font-weight: 500;
-line-height: 64px;
 margin-bottom: 40px;
 }
 .zabotimsya__text{
@@ -26,7 +25,6 @@ margin-bottom: 40px;
 font-family: Arimo;
 font-size: 16px;
 font-weight: 500;
-line-height: 21px;
 margin-bottom: 35px;
 }
 .zabotimsya__btn{
@@ -46,9 +44,70 @@ color: black;
   background-color:rgb(120, 192, 222);
   color: black;
   }
-.zabodimsya__content{
-  height: 385px;
+.zabotimsya__content{
   max-width: 600px;
   padding-top: 200px;
-  margin-left: 630px;
+}
+
+
+@media screen and (max-width:1084px) {
+  .zabotimsya__img{
+    max-width: 570px;
+  }
+  .zabotimsya__content{
+    max-width: 570px;
+  }
+}
+@media screen and (max-width:1060px) {
+  .zabotimsya__img{
+    max-width: 540px;
+  }
+  .zabotimsya__content{
+    max-width: 540px;
+  }
+}
+@media screen and (max-width:1024px) {
+  .zabotimsya__img{
+    max-width: 510px;
+  }
+  .zabotimsya__content{
+    max-width: 510px;
+  }
+}
+@media screen and (max-width:996px) {
+  .zabotimsya__img{
+    max-width: 600px;
+    margin-left: 15px;
+  }
+  .zabotimsya__content{
+    max-width: 600px;
+    padding-top: 50px;
+    margin-left: 15px;
+  }
+  .zabotimsya{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:610px) {
+  .zabotimsya__title , .zabotimsya__title2{
+    font-size: 65px;
+  }
+}
+@media screen and (max-width:610px) {
+  .zabotimsya__title , .zabotimsya__title2{
+    font-size: 58px;
+  }
+  .zabotimsya__title2{
+    margin-bottom: 25px;
+  }
+  .zabotimsya__text{
+    font-size: 15px;
+    margin-bottom: 19px;
+
+  }
+}
+@media screen and (max-width:460px) {
+  .zabotimsya__content{
+    max-width: 550px;
+  }
 }
