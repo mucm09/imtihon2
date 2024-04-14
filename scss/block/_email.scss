@@ -1,0 +1,87 @@
+.email{
+  background-image: url(/img/bluefon.png);
+  background-repeat: no-repeat;
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  height: 308px;
+  justify-content: space-between;
+  padding-left: 230px;
+}
+.email__input{
+  border-radius: 5px;
+  color: rgb(148, 148, 148);
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+  padding: 18px 120px 15px 22px;
+  border: none;
+}
+.email__inputblack{
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+padding: 18px 20px 15px 22px;
+  font-size: 16px;
+background: rgb(51, 51, 51);
+border:none
+}
+.email__title{
+  color: rgb(255, 255, 255);
+font-family: Arimo;
+font-size: 48px;
+margin-bottom: 25px;
+}
+.email__content::after{
+  content: "";
+  width: 613px;
+  height: 481px;
+  background-image: url(../../img/dog.png);
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 1924px;
+  right: 20px;
+}
+.email__inputblack:hover{
+  border-radius: 3px;
+  background: rgb(255, 189, 84);
+  color: rgb(51, 51, 51);
+  font-family: Futura PT;
+  font-size: 16px;
+}
+.email__inputblack:active{
+  border-radius: 3px;
+  background: rgb(255, 214, 149);
+}
+@media screen and (max-width:1166px){
+  .email__content::after{
+  display: none;
+  }
+  .email{
+    padding:0px;
+    margin-top: 77px;
+  }
+  .email__content{
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:512px) {
+  .email__content{
+    padding: 0px 15px;
+  }
+  .email__title{
+    font-size: 44px;
+  }
+  .email__input{
+    padding: 16px 80px 13px 20px;
+  }
+  .email__inputblack{
+    padding: 16px 16px 13px 16px;
+  }
+}
+@media screen and (max-width:470px) {
+  .email__title{
+    font-size: 35px;
+  }
+  .email__input{
+    margin-bottom: 23px;
+  }
+}
