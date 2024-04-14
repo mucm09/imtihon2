@@ -75,6 +75,10 @@ margin-left: 60px;
   display: flex;
   align-items: center;
 }
+.services__item:hover{
+border-radius: 20px;
+background-color: rgb(235, 183, 120);
+}
 @media screen and (max-width:1186px) {
 .services__item{
   max-width: 160px;
